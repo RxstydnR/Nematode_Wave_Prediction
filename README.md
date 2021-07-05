@@ -1,3 +1,5 @@
+# Wave of Nematode Prediction/Translation between GCaMP6f & paQuasAr3
+
 <img src="imgs/overall.jpeg">
 
 This is a repository for waveform prediction. 
@@ -23,7 +25,7 @@ Recommend to use .sh file, see `main.sh`.
 
 **Example**
 
-- Many to Many Prediction
+- **Many to Many Prediction**
 
   ```shell
   python main.py \
@@ -45,7 +47,7 @@ Recommend to use .sh file, see `main.sh`.
   --input_movie
   ```
 
-- Many to One Prediction
+- **Many to One Prediction**
 
   ```shell
   python main.py \
@@ -67,7 +69,7 @@ Recommend to use .sh file, see `main.sh`.
   --image_model_pretrained
   ```
 
-### Get Keras Model for other purpose.
+### How to get a Keras Model.
 
 To obtain a time series model, follow the example code. You can use models in `model.py` for other purposes.
 
@@ -99,14 +101,14 @@ List of models in model.py.
 - LSTM Encoder-Decoder model
 - GRU Encoder-Decoder model
 - Convolution Encoder-Decoder model
-- Utime
+- Utime (see [github](https://github.com/perslev/U-Time))
 - Utime + Movie feature
 
 #### Conv + image feature model
 
-<img src="imgs/image_feature.png" width=40%>
+<img src="imgs/image_feature.png" width=100%>
 
 #### Utime + Movie feature
 
-<img src="imgs/movie_feature.png" width=40%>
+<img src="imgs/movie_feature.png" width=100%>
 
