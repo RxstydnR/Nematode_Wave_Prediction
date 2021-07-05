@@ -75,10 +75,10 @@ To obtain a time series model, follow the example code. You can use models in `m
 
 ```python
 model = WaveModel(N_SEQUENCE=200, 
-                	N_FEATURE=1, 
-                	IMG_SHAPE=(256,256,1),
-                	image_model="ResNet18",
-                	pretrained=False).build.model()
+                  N_FEATURE=1, 
+                  IMG_SHAPE=(256,256,1),
+                  image_model="ResNet18",
+                  pretrained=False).build.model()
 model.compile("adam",loss="mse")
 ```
 
@@ -106,7 +106,7 @@ List of models in model.py.
 
 #### Conv + image feature model
 
-<img src="imgs/image_feature.png" width=100%>
+<img src="imgs/image_feature.png" width=50%>
 
 #### Utime + Movie feature
 
